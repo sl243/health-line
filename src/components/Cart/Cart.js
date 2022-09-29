@@ -28,7 +28,23 @@ const Cart = ({cart}) => {
                 <div>
                     <h4>Add A Break</h4>
                     <div className='details'>
-                        <button>10s</button>
+                        <div>
+                            <button className='add-break'>
+                               <p>10s</p>
+                            </button>
+                            <button className='add-break'>
+                                <p>20s</p>
+                            </button>
+                            <button className='add-break'>
+                                <p>30s</p>
+                            </button>
+                            <button className='add-break'>
+                                <p>40s</p>
+                            </button>
+                            <button className='add-break'>
+                                <p>50s</p>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div>
