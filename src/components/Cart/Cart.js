@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../images/logo.jpg';
 import './Cart.css'
 
@@ -23,8 +23,19 @@ const Cart = ({cart}) => {
     const handleAddToSecond = (e) => {
         setSecond(e.target.innerText);
 
-        localStorage.setItem('localStorage', second)
     }
+
+    useEffect(()=>{
+        if(second !== ''){
+            localStorage.setItem('localStorage', second)
+        }
+        
+    },[second])
+
+    useEffect(()=>{
+        const x = localStorage.getItem('localStorage');
+        setSecond(x)
+    },[])
 
     let totalTime = 0;
 
