@@ -12,7 +12,7 @@ const Item = (props) => {
                 <p>Time required: {time}s</p>
             </div>
             <button onClick={() => handleAddToItem(props.item)} className='btn-list'>
-                <p>Add To List</p>
+                <p className='btn-name'>Add To List</p>
             </button>
         </div>
     );

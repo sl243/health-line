@@ -16,11 +16,15 @@
 .btn-list {
     background-color: blue;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-radius: 10px;
     color: white;
 }
 
 .btn-list:hover {
     background-color: orange;
+}
+
+.btn-name {
+    font-size: 20px;
 }

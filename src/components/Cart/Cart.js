@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const notify = () => 
-    toast.success('Wow Assignment 8 Completed', {
+    toast.success('Alhamdulillah Assignment 8 Completed', {
     position: "top-center",
     autoClose: 5000,
     hideProgressBar: false,
@@ -54,11 +54,13 @@ const Cart = ({cart}) => {
                     </div>
                 </div>
                 <div className='details'>
-                    <p className='profile-details'>65kg Weight</p>
-                    <p className='profile-details'>5.5 height</p>
-                    <p className='profile-details'>28yrs Age</p>
+                    <div className='weight-height'>
+                        <p className='profile-details'>65kg Weight</p>
+                        <p className='profile-details'>5.5 height</p>
+                        <p className='profile-details'>28yrs Age</p>
+                    </div>
                 </div>
-                <div>
+                <div className='container'>
                     <h4>Add A Break</h4>
                     <div className='details'>
                         <div>
@@ -80,18 +82,19 @@ const Cart = ({cart}) => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='container'>
                     <h4>Exercise</h4>
                     <div className='details'>
                         <h5 className='exercise-time'>Exercise time <span className='totalsec'>{totalTime} seconds</span></h5>
                     </div>
-                    <br></br>
+                </div>
+                <div>
                     <div className='details'>
                         <h5 className='exercise-time'>Break time <span className='totalsec'>{second} seconds</span></h5>
                     </div>
                 </div>
                 <button onClick={notify} className='activity-btn'>
-                    <p>Activity Completed</p>
+                    <p className='active-name'>Activity Completed</p>
                 </button>
                 <ToastContainer />
         </div>
