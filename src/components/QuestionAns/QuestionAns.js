@@ -28,7 +28,12 @@ const QuestionAns = () => {
             </div>
             <div>
                 <h2 className='question'>What are work useeffect in react ?</h2>
-                <p className='answer'>JSX</p>
+                <p className='answer'>useEffect(callback, dependencies) is the hook that manages the side-effects in functional components. callback argument is a function to put the side-effect logic. dependencies is a list of dependencies of your side-effect: being props or state values.</p>
+                <p className='answer'>1. useEffect() is for side-effects</p>
+                <p className='answer'>2. Dependencies argument</p>
+                <p className='answer'>3. Component lifecycle</p>
+                <p className='answer'>4. Side-effect cleanup</p>
+                <p className='answer'>5. useEffect() in practice</p>
             </div>
         </div>
     );
