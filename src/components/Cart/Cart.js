@@ -20,11 +20,11 @@ const Cart = ({cart}) => {
     
     return (
         <div>
-            <h1>Cart Profile: {cart.length}</h1>
                 <div className='logo'>
                     <img src={logo} alt=''></img>
                     <div className='profile-info'>
                         <h4>Md. Shamim Hossain</h4>
+                        <p>slmiucse@gmail.com</p>
                         <p>Paltan, Dhaka-1000</p>
                     </div>
                 </div>

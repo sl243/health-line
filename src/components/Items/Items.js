@@ -21,7 +21,7 @@ const Items = () => {
     return (
         <div className='items-container'>
             <div className='items-body'>
-                <h2 className='exercise'>Select exercise Items:</h2>
+                <h2 className='exercise'>Select exercise Items</h2>
                 <div className='item'>
                 {
                     items.map(item => <Item 

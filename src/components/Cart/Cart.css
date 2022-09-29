@@ -1,6 +1,7 @@
 
 .profile-info {
     padding-left: 10px;
+    line-height: 2px;
 }
 
 .profile-details {
@@ -13,7 +14,7 @@
     height: 70px;
     border-radius: 10px;
     display: flex;
-    
+    margin-top: 20px;
 }
 
 .add-break {
