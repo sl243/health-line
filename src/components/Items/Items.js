@@ -14,7 +14,6 @@ const Items = () => {
     },[]);
 
     const handleAddToItem = (count) => {
-        console.log(count);
         const newTimecount = [...timecount , count];
         setTimecount(newTimecount);
     }

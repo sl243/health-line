@@ -3,6 +3,12 @@ import logo from '../../images/logo.jpeg';
 import './Cart.css'
 
 const Cart = ({cart}) => {
+
+    let totalTime = 0;
+
+    for(const time of cart){
+        totalTime = totalTime + time.time;
+    }
     
     return (
         <div>
@@ -28,7 +34,7 @@ const Cart = ({cart}) => {
                 <div>
                     <h4>Exercise</h4>
                     <div className='details'>
-                        <h5>Exercise time <span>seconds</span></h5>
+                        <h5>Exercise time {totalTime}<span> seconds</span></h5>
                     </div>
                     <br></br>
                     <div className='details'>
