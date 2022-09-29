@@ -1,0 +1,12 @@
+.header {
+    padding-left: 30px;
+}
+
+.header-name {
+    display: flex;
+    align-items: center;
+}
+
+.header-name .name {
+    margin-left: 10px;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "63348d2e42e1768d82accd01",
+    "image": "https://media.istockphoto.com/photos/indian-man-doing-push-ups-at-home-picture-id1312492627?b=1&k=20&m=1312492627&s=170667a&w=0&h=ZkZc8bOc_QdiA6KLcI4kbYqg3uNVXfQxo09IQg3jYqg=",
+    "time": 26,
+    "name": "Pushups"
+  },
+  {
+    "id": "63348d2ed2e6b705c23af7f2",
+    "image": "https://st2.depositphotos.com/1017228/7017/i/600/depositphotos_70178821-stock-photo-young-woman-doing-squats.jpg",
+    "time": 41,
+    "name": "Squats"
+  },
+  {
+    "id": "63348d2e3d5615150815a936",
+    "image": "https://t4.ftcdn.net/jpg/01/27/12/41/360_F_127124123_JIKPeH86XyNBtRJvfdPhEF0YKOEpE0GN.jpg",
+    "time": 55,
+    "name": "Dumbbell presses"
+  },
+  {
+    "id": "63348d2ec48b8aa0a507a4ff",
+    "image": "https://media1.popsugar-assets.com/files/thumbor/gBQK4NkxXpPSU8rgHKnvNqGFpyI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/03/02/030/n/1922398/77bb8ac0c6000ed8_Single-Leg-Deadlift-Kettlebell.jpg",
+    "time": 48,
+    "name": "Single-leg deadlifts"
+  },
+  {
+    "id": "63348d2ec37a444102ebc288",
+    "image": "https://www.mensjournal.com/wp-content/uploads/2018/05/1380-burpee1.jpg?w=1200&quality=86&strip=all",
+    "time": 21,
+    "name": "Burpees"
+  },
+  {
+    "id": "63348d2e3f7599c32127aed5",
+    "image": "https://experiencelife.lifetime.life/wp-content/uploads/2021/07/bid-side-plank-1280x720.jpg",
+    "time": 45,
+    "name": "Side planks"
+  },
+  {
+    "id": "63348d2e32ca8c5326de4a1b",
+    "image": "https://static.sportzbusiness.com/uploads/2021/03/Plank-Workout-Thumbnail.jpg",
+    "time": 40,
+    "name": "Planks"
+  },
+  {
+    "id": "63348d2e2bc50b9297601839",
+    "image": "https://cdn.shopify.com/s/files/1/2027/3795/articles/Glute_Bridge_with_a_Band_1024x.jpg?v=1598605021",
+    "time": 30,
+    "name": "Glute bridge"
+  },
+  {
+    "id": "63348d2ebdcfa689d1cda7e0",
+    "image": "https://www.topendsports.com/fitness/images/lunge-exercise-pixabay.jpg",
+    "time": 37,
+    "name": "Lunges"
+  }
+]
