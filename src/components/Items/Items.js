@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
 import logo from '../../images/logo.jpeg';
 import './Items.css'
+import Cart from '../Cart/Cart';
 
 const Items = () => {
     const [items, setItems] = useState([]);
@@ -34,7 +35,8 @@ const Items = () => {
                 </div>
             </div>
             <div className='profile-body'>
-                <h2>Profile: {timecount.length}</h2>
+                <Cart></Cart>
+                {/* <h2>Profile: {timecount.length}</h2>
                 <div className='logo'>
                     <img src={logo} alt=''></img>
                     <div className='profile-info'>
@@ -65,7 +67,7 @@ const Items = () => {
                 </div>
                 <button className='activity-btn'>
                     <p>Activity Completed</p>
-                </button>
+                </button> */}
             </div>
         </div>
     );
