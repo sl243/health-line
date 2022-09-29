@@ -1,6 +1,7 @@
 .item-container {
     border: 2px solid blueviolet;
     border-radius: 5px;
+    height: 430px;
 }
 
 .item-container img {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../images/logo.jpeg';
+import logo from '../../images/logo.jpg';
 import './Cart.css'
 
 const Cart = ({cart}) => {
@@ -8,6 +8,8 @@ const Cart = ({cart}) => {
 
     const handleAddToSecond = (e) => {
         setSecond(e.target.innerText);
+
+        localStorage.setItem('localStorage', second)
     }
 
     let totalTime = 0;
@@ -27,9 +29,9 @@ const Cart = ({cart}) => {
                     </div>
                 </div>
                 <div className='details'>
-                    <p>75kg Weight</p>
-                    <p>5.5 height</p>
-                    <p>28yrs Age</p>
+                    <p className='profile-details'>65kg Weight</p>
+                    <p className='profile-details'>5.5 height</p>
+                    <p className='profile-details'>28yrs Age</p>
                 </div>
                 <div>
                     <h4>Add A Break</h4>
@@ -56,11 +58,11 @@ const Cart = ({cart}) => {
                 <div>
                     <h4>Exercise</h4>
                     <div className='details'>
-                        <h5>Exercise time {totalTime}<span> seconds</span></h5>
+                        <h5 className='exercise-time'>Exercise time <span className='totalsec'>{totalTime} seconds</span></h5>
                     </div>
                     <br></br>
                     <div className='details'>
-                        <h5>Break time {second}<span> seconds</span></h5>
+                        <h5 className='exercise-time'>Break time <span className='totalsec'>{second} seconds</span></h5>
                     </div>
                 </div>
                 <button className='activity-btn'>
