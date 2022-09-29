@@ -9,7 +9,7 @@ const Item = (props) => {
             <img src={image} alt=''></img>
             <div className='item-info'>
                 <h3>{name}</h3>
-                <p>Time required: {time}</p>
+                <p>Time required: {time}s</p>
                 <button onClick={() => handleAddToItem(props.item)}>
                     <p>Add To List</p>
                 </button>

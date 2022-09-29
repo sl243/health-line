@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/logo.jpeg';
 import './Cart.css'
 
 const Cart = ({cart}) => {
+
+    const [second, setSecond] = useState('');
+
+    const handleAddToSecond = (e) => {
+        setSecond(e.target.innerText);
+    }
 
     let totalTime = 0;
 
@@ -29,19 +35,19 @@ const Cart = ({cart}) => {
                     <h4>Add A Break</h4>
                     <div className='details'>
                         <div>
-                            <button className='add-break'>
+                            <button onClick={(e) => handleAddToSecond(e)} className='add-break'>
                                <p>10s</p>
                             </button>
-                            <button className='add-break'>
+                            <button onClick={(e) => handleAddToSecond(e)} className='add-break'>
                                 <p>20s</p>
                             </button>
-                            <button className='add-break'>
+                            <button onClick={(e) => handleAddToSecond(e)} className='add-break'>
                                 <p>30s</p>
                             </button>
-                            <button className='add-break'>
+                            <button onClick={(e) => handleAddToSecond(e)} className='add-break'>
                                 <p>40s</p>
                             </button>
-                            <button className='add-break'>
+                            <button onClick={(e) => handleAddToSecond(e)} className='add-break'>
                                 <p>50s</p>
                             </button>
                         </div>
@@ -54,7 +60,7 @@ const Cart = ({cart}) => {
                     </div>
                     <br></br>
                     <div className='details'>
-                        <h5>Break time <span>seconds</span></h5>
+                        <h5>Break time {second}<span> seconds</span></h5>
                     </div>
                 </div>
                 <button className='activity-btn'>
