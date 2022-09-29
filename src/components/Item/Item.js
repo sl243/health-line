@@ -10,10 +10,10 @@ const Item = (props) => {
             <div className='item-info'>
                 <h3>{name}</h3>
                 <p>Time required: {time}s</p>
-                <button onClick={() => handleAddToItem(props.item)} className='btn-list'>
-                    <p>Add To List</p>
-                </button>
             </div>
+            <button onClick={() => handleAddToItem(props.item)} className='btn-list'>
+                <p>Add To List</p>
+            </button>
         </div>
     );
 };

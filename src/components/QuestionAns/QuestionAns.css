@@ -1,0 +1,13 @@
+.question-answer {
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.question {
+    text-align: center;
+}
+
+.answer {
+    font-size: 24px;
+}
