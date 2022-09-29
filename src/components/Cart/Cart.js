@@ -2,6 +2,20 @@ import React, { useState } from 'react';
 import logo from '../../images/logo.jpg';
 import './Cart.css'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => 
+    toast.success('Wow Assignment 8 Completed', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    });
+
 const Cart = ({cart}) => {
 
     const [second, setSecond] = useState('');
@@ -23,7 +37,7 @@ const Cart = ({cart}) => {
                 <div className='logo'>
                     <img src={logo} alt=''></img>
                     <div className='profile-info'>
-                        <h4>Md. Shamim Hossain</h4>
+                        <h4>MD SHAMIM HOSSAIN</h4>
                         <p>slmiucse@gmail.com</p>
                         <p>Paltan, Dhaka-1000</p>
                     </div>
@@ -65,9 +79,10 @@ const Cart = ({cart}) => {
                         <h5 className='exercise-time'>Break time <span className='totalsec'>{second} seconds</span></h5>
                     </div>
                 </div>
-                <button className='activity-btn'>
+                <button onClick={notify} className='activity-btn'>
                     <p>Activity Completed</p>
                 </button>
+                <ToastContainer />
         </div>
     );
 };
